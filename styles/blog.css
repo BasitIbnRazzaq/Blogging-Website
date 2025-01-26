@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f5f5ff; /* Light violet background */
+    color: #4b0082; /* Deep violet text */
+    line-height: 1.6;
+}
+
+header {
+    background-color: #4b0082; /* Deep violet */
+    color: white;
+    padding: 1rem 2rem;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 2rem;
+}
+
+.blog-post {
+    background: white;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.blog-post:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.blog-post h2 {
+    color: #4b0082;
+    font-size: 1.75rem;
+}
+
+.blog-post p {
+    color: #333;
+    margin: 1rem 0;
+}
+
+.blog-post a {
+    color: #4b0082;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.blog-post a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #4b0082;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: white;
+    text-decoration: underline;
+}
+
+footer a:hover {
+    color: #e0e0ff;
+}
+
+/* Navbar Styling */
+nav {
+    background-color: #4b0082;
+    padding: 10px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    background-color: #6a0dad;
+}
